@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(231, 222, 230);
+}
+
+ul{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(231, 222, 230);
+    overflow: hidden;
+    margin-left: 700px;
+    /* margin-top: 0px; */
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px;
+    color: blueviolet;;
+    margin-left: 20px;
+}
+
+li a:hover{
+    background-color: rgb(180, 149, 209);
+    transition: all 0.5s;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap-reverse;
+   justify-content: space-around;
+}
+.intro{
+    margin-top: 250px;
+}
+.pic{
+    margin-top: 130px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.intro{
+    margin-top: 220px;
+}
+
+p.one{
+    font-family: quicksand;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    font-size: large;
+}
+p.two{
+    font-size: 40px;
+    color: blueviolet;
+    font-weight: 500;
+    font-family: Roboto;
+}
+p.three{
+    font-size: 24px;
+    font-family: quicksand;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+}
+.intro button{
+    padding: 7px;
+    width: 30%;
+    margin-top: 20px;
+    color: white;
+    font-size: 15 px;
+    background-color: blueviolet;;
+    border: 2px solid blueviolet;;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.about-me{
+    text-align: center;
+    font-family: quicksand;
+    font-size: 18px;
+    margin-top: 120px;
+}
+
+.ap1{
+    padding: 10px;
+}
+
+.ap1{
+    padding: 10px;
+}
+
+.eduh{
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.futo{
+    padding-top: 20px;
+}
+
+.skills{
+    background-color: rgb(231, 222, 230);
+    width:20%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    font-family: quicksand;
+    font-size: large;
+    
+}
+
+.hr1{
+    color: blueviolet;
+    border: 1px solid ;
+    
+}
+
+.p01{
+    margin: 5px;
+}
+
+.p02{
+    margin-top: 15px;
+}
+
+.services{
+    background-color: blueviolet;
+    width: 100%;
+    /* border-radius: 10px; */
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: quicksand;
+    font-size: large;
+}
+
+.so{
+    width: 40%;
+    padding: 20px;
+    margin-left: 5px;
+    color: white;
+
+}
+
+.hr3{
+    border: 1px solid ;
+    color: white;
+    margin-left: 170px;
+}
+
+.offer-list{
+    width: 50%;
+    padding: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+.copy{
+    font-family: quicksand;
+    font-size: large;
+    color: white;
+    text-align: center;
+    border: 1px solid whitesmoke ;
+    padding: 10px;
+}
